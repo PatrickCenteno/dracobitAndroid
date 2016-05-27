@@ -19,15 +19,12 @@ Unit Testing: [Robolectric](http://robolectric.org/) | [JUnit4 / Mockito](https:
 ### Patrick Centeno
 Here is the goals for the authetication and connecting to the api
 
-/*******************************************
  * App validation workflow
  *
  * An activity is a like a web page if you dont already know
  *
  * I will be making reference to activity lifecycle methods the refer when the activity
  * is loaded or destroyed (onCreate(), onStart(), onStop(), onRestart())
- *
- *******************************************/
 
 In addition to normal user table in DB, we will have a mobile user table with informaiton 
 about them relative to the app:
