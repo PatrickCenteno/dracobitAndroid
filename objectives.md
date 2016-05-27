@@ -68,5 +68,7 @@ onRestart():
 
 onStart(): // of every activity except splashscreen
 	retrieve request token
+	
+Its important to note that we can keep track of the device name that the user is logged into on the backend
 
   
