@@ -24,6 +24,8 @@ Unit Testing: [Robolectric](http://robolectric.org/) | [JUnit4 / Mockito](https:
 ###Guides and Tutorials
 Super amazing blog for [Retrofit 2](https://futurestud.io/blog/retrofit-getting-started-and-android-client) along with other blogs if you're interested [Android and Node.js](https://futurestud.io/#popular-blog-series) stuff  
   
+My take on Retrofit summarized from the blog above: [Retrofit 101](https://gist.github.com/Arta0613/8c198421d2d2a22b80d5000e343a44f3)  
+  
 
 ### Patrick Centeno
 Here is the goals for the authetication and connecting to the api
