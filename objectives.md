@@ -61,9 +61,10 @@ if they are not logged in or password was changed, hit login activity
 if no user on device, hit sign up activity // can easily go to login activity from there
 	// This can be implemented by having one login/signup activity with two different fragments for each one
 
-if logged in, retreive a userId token from mobile user table (or regular user table)
+if logged in, retreive a userkey from mobile user table
 
-User id token is passed with every API call (relative to user specific info) from here onward
+User key is passed with every API call (relative to user specific info) from here onward
+Request Token is also passed to determine app version and authenticate destination of request
 
 
 onStop():
