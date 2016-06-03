@@ -47,12 +47,11 @@ Public API key for the app: // file with key cannot go in repository
 key will change with each version of the app 
 
 onCreate() of initial splashscreen:
-	retreive request token with public API key
-	we can tie request tokens to different versions of the app restrict certain services
-	Passes this request token with every call
+	Check API key
+	Check API key with every call and tie different API keys to different versions of app
 
 
-After token is received, check if user was registered with device // if theyve logged in before
+After initial check, check if user was registered with device // if theyve logged in before
 
 if they are, hit mobile user table to find out if they are logged in or they changed the password
 
@@ -64,7 +63,7 @@ if no user on device, hit sign up activity // can easily go to login activity fr
 if logged in, retreive a userkey from mobile user table
 
 User key is passed with every API call (relative to user specific info) from here onward
-Request Token is also passed to determine app version and authenticate destination of request
+API key is also passed to determine app version and authenticate destination of request
 
 
 onStop():
